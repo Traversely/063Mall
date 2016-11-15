@@ -1,0 +1,32 @@
+
+
+|--063Mall	#商城根目录
+	|--app								# 应用程序目录
+		|--Console						# Artisan 命令保存目录
+		|--Http							# 项目控制器、中间件和请求目录
+			|--Controllers				# 控制器目录
+				|--Auth					# 框架预定义控制器目录
+				|--admin				# 后台控制器目录
+				|--home					# 前台控制器目录
+			|--Middleware				# 中间件目录
+			|--Requests					# 请求目录
+			|--Kernel.php				# 中间件配置文件
+			|--routes.php				# 路由控制文件
+		|--Org							# 自定义扩展类
+		|--Model						# 自定义数据库操作类
+	|--bootstrap						# 框架启动和自动加载设置文件目录
+	|--config							# 所有应用程序的配置文件
+	|--database							# 数据库迁移与数据填充文件目录
+	|--public							# 前端控制器和资源文件
+		|--uploads						# 上传文件目录
+		|--css							# CSS文件目录
+		|--js							# JS文件目录
+	|--resources						# 视图、原始资源、语言包目录
+		|--assets						# 原始资源目录
+		|--lang							# 语言包目录
+		|--views						# 视图目录
+			|--home						# 前台视图目录
+			|--admin					# 后台视图目录
+	|--storage							# 编译后的模板、缓存、日志等目录
+	|--tests							# 自动化测试目录
+	|--vendor							# Composer依赖模块目录
