@@ -1,0 +1,201 @@
+.list-box
+{
+background:#fff;
+padding:16px 0 30px;
+width:100%;
+height:400px;
+}
+.list-box .list-container
+{
+margin:0 auto;
+overflow:hidden;
+width:1245px
+}
+.list-box .list
+{
+margin-left:-5px;
+width:1250px
+}
+.list-item .pic
+{
+padding:30px
+}
+.list-item .cont
+{
+font-size:16px;
+text-align:center
+}
+.list-item .pic img,.list-item .pic a
+{
+display:block;
+height:180px;
+width:180px
+}
+.list-box .list .list-item
+{
+background:#fff;
+display:inline-block;
+*display:inline;
+height:300px;
+margin:3px 5px;
+overflow:hidden;
+width:240px;
+*zoom:1
+}
+.list-item .cont .title
+{
+color:#31373c;
+display:block;
+font-size:14px;
+height:24px;
+line-height:24px;
+margin:0 auto;
+overflow:hidden;
+text-align:center;
+width:90%
+}
+.list-item .cont .price
+{
+color:#fa5437;
+font-size:14px
+}
+.list-box .list-item .btns
+{
+display:none
+}
+.list-container-no-ret
+{
+min-height:400px
+}
+.hotlist
+{
+margin:0 auto 30px;
+position:relative;
+width:1240px
+}
+.hotkeywords a
+{
+color:#3cb14c
+}
+.hotlist .list-title
+{
+color:#31373c;
+border-bottom:1px #E6E9ED solid;
+display:block;
+font-size:20px;
+height:49px;
+line-height:49px;
+margin:0px auto;
+}
+.hotlist .switcher
+{
+border:1px solid #e1e1e1;
+height:26px;
+position:absolute;
+right:0;
+top:8px;
+width:53px
+}
+.list-box .list .list-item
+{
+margin:3px
+}
+.hotlist .switcher .left,.hotlist .switcher .right
+{
+background:#fff;
+color:#bebebe;
+cursor:pointer;
+display:block;
+float:left;
+font:14px / 1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+height:23px;
+padding-top:3px;
+text-align:center;
+width:26px
+}
+.hotlist .switcher .left
+{
+border-right:1px solid #e1e1e1
+}
+.hotlist .switcher .abled.left:hover,.hotlist .switcher .abled:hover
+{
+color:#23ac38
+}
+.hotlist .itemlist
+{
+height:303px;
+overflow:hidden;
+position:relative;
+width:1240px
+}
+.hotlist .item
+{
+background:#fff;
+float:left;
+height:303px;
+margin-right:10px;
+width:240px
+}
+.hotlist .itemlist ul
+{
+height:303px;
+left:0;
+position:absolute;
+top:0;
+width:11240px
+}
+.hotlist .switcher .disabled
+{
+color:#ddd
+}
+.hotlist .item .pic
+{
+display:block;
+height:200px;
+margin:20px auto;
+width:200px
+}
+.hotlist .item .title,.hotlist .item .price
+{
+display:block;
+font-size:16px;
+height:26px;
+line-height:26px;
+margin:0 auto;
+overflow:hidden;
+text-align:center;
+text-overflow:ellipsis;
+white-space:nowrap;
+width:80%
+}
+.hotlist .item .price
+{
+color:#eb4b30
+}
+.listwrap
+{
+margin:0 auto;
+position:relative;
+width:1240px
+}
+.listwrap .layer
+{
+-webkit-align-items:center;
+align-items:center;
+background:rgba(204,204,204,0.7);
+bottom:0;
+color:#fff;
+display:-webkit-flex;
+display:-ms-flexbox;
+display:flex;
+-ms-flex-align:center;
+-ms-flex-pack:center;
+font-size:40px;
+font-weight:700;
+-webkit-justify-content:center;
+justify-content:center;
+left:0;
+position:absolute;
+right:0;
+top:0
+}

@@ -1,0 +1,77 @@
+.popMask {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+.popMain {
+	position: fixed;
+	overflow: hidden;
+	display: none;
+	font-size: 12px;
+	border-radius: 4px;
+}
+
+.popTitle {
+	background: #82C92F;
+	display: none;
+}
+.popTitle .text {
+	margin-left: 12px;
+	line-height: 28px;
+	color:#fff;
+}
+.popTitle .icon {
+	float: left;
+	margin: 6px 0 0 6px;
+	width: 16px;
+	height: 16px;
+}
+.popTitle .close {
+	position: absolute;
+	top: 5px;
+	right: 0;
+	font-size: 16px;
+	margin: 0px 12px;
+	font-weight: 900;
+	cursor: pointer;
+}
+.popTitle .close:hover {
+	color: #ddd;
+}
+.popContent {
+	background: #fff;
+	overflow: auto;
+	padding: 20px 40px;
+}
+.popContent .layer_msg {
+	max-width: 400px;
+	text-align: right;
+}
+.popContent .layer_msg p {
+	padding: 10px 0;
+	text-align: center;
+	margin: 0;
+	font-size: 12px;
+}
+.popContent .layer_msg input {
+    border:1px solid #ccc;
+	margin-bottom: 10px;
+	height: 20px;
+}
+.popContent .layer_msg button {
+	border: none;
+	cursor: pointer;
+	padding: 6px 20px;
+	background-color:#86D12E;
+	color:#fff;
+	margin-left: 20px;
+}
+.popContent .layer_msg button:hover {
+	background-color: #23AC38;
+}
+.popContent .layer_msg button:active {
+	background-color: #23AC38;
+}
